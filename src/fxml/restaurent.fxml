@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.000022070315" prefWidth="624.0002999999924" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <AnchorPane layoutX="454.0" layoutY="142.0" prefHeight="449.0" prefWidth="172.0">
+      <children>
+        <Label layoutX="7.0" layoutY="100.0" prefHeight="28.0" prefWidth="82.0" text="Present:">
+          <font>
+            <Font name="System Bold" size="20.0" fx:id="x4" />
+          </font>
+        </Label>
+        <Label font="$x4" layoutX="7.0" layoutY="63.0" prefHeight="28.0" prefWidth="96.0" text="tot.itmes:" />
+        <Label font="$x4" layoutX="76.0" layoutY="33.0" prefHeight="28.0" prefWidth="46.0" text="000" />
+        <Label font="$x4" layoutX="106.0" layoutY="63.0" prefHeight="28.0" prefWidth="46.0" text="000" />
+        <Label font="$x4" layoutX="96.0" layoutY="101.0" prefHeight="28.0" prefWidth="46.0" text="000" />
+      </children>
+    </AnchorPane>
+    <Separator layoutX="444.0" layoutY="2.0" orientation="VERTICAL" prefHeight="147.0" prefWidth="10.0">
+      <effect>
+        <Glow />
+      </effect>
+    </Separator>
+    <AnchorPane layoutX="0.0" layoutY="1.0" minHeight="141.0" minWidth="624.0003051757812" prefHeight="141.0" prefWidth="624.0003051757812">
+      <children>
+        <Rectangle arcHeight="0.0" arcWidth="0.0" height="143.00009999999747" layoutX="1.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="1.4" width="625.0">
+          <fill>
+            <Color blue="0.500" green="0.500" red="0.500" fx:id="x2" />
+          </fill>
+        </Rectangle>
+        <Rectangle arcHeight="200.0" arcWidth="200.0" fill="#404351" height="145.0" layoutX="1.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="625.0" />
+        <ImageView fitHeight="140.0" fitWidth="186.66666666666666" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+        <Label layoutX="197.0" layoutY="15.0" minHeight="53.0" prefHeight="53.0" prefWidth="96.0" text="ABC">
+          <font>
+            <Font name="Sitka Display" size="55.0" />
+          </font>
+        </Label>
+        <Label layoutX="197.0" layoutY="63.0" minHeight="37.0" prefHeight="37.0" prefWidth="221.0" text="RESTAURENT">
+          <font>
+            <Font name="Sitka Display Bold" size="35.0" />
+          </font>
+        </Label>
+        <Label layoutX="197.0" layoutY="94.0" minHeight="37.0" prefHeight="37.000099999997474" prefWidth="248.0" text="TASTE OUR HIGENIC FOOD">
+          <font>
+            <Font name="Consolas Bold Italic" size="20.0" />
+          </font>
+        </Label>
+      </children>
+    </AnchorPane>
+    <AnchorPane fx:id="menu" layoutX="2.0" layoutY="142.0" prefHeight="447.9993896484375" prefWidth="452.0" />
+    <AnchorPane fx:id="main" layoutX="1.0" layoutY="149.0" prefHeight="437.0" prefWidth="453.0">
+      <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x2" height="448.9993896484375" layoutX="1.0" layoutY="-8.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="1.5" width="453.0" />
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="16.0" layoutY="18.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Zinger" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+          <textFill>
+            <Color blue="0.400" green="0.400" red="1.000" fx:id="x3" />
+          </textFill>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="126.0" layoutY="18.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="roll" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="236.0" layoutY="18.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="346.0" layoutY="18.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="16.0" layoutY="118.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="126.0" layoutY="118.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="236.0" layoutY="118.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="346.0" layoutY="118.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="16.0" layoutY="218.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="126.0" layoutY="218.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="236.0" layoutY="218.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="346.0" layoutY="218.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="16.0" layoutY="318.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="126.0" layoutY="318.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="236.0" layoutY="318.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button cancelButton="false" contentDisplay="TOP" defaultButton="false" layoutX="346.0" layoutY="318.0" minHeight="76.0" minWidth="96.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="96.0" text="Button" textFill="$x3" textOverrun="CLIP">
+          <graphic>
+            <ImageView fitHeight="62.0" fitWidth="82.66666369168264" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+      </children>
+    </AnchorPane>
+    <Button layoutX="465.0" layoutY="454.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="146.00030517578125" text="alteration" />
+    <Button layoutX="465.0" layoutY="415.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="146.00030517578125" text="setting" />
+    <Button fx:id="menubtn" layoutX="465.0" layoutY="376.0" mnemonicParsing="false" onAction="#menu" prefHeight="28.0" prefWidth="146.00030517578125" text="menu" />
+    <Label font="$x4" layoutX="461.0" layoutY="172.0" prefHeight="28.0" prefWidth="82.0" text="Price :" />
+  </children>
+</AnchorPane>
